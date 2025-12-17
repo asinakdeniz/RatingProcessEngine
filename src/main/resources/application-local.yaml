@@ -1,0 +1,16 @@
+app:
+  environment: local
+
+spring:
+  datasource:
+    url: "jdbc:trino://localhost:8080/silver"
+    username: admin
+  kafka:
+    bootstrap-servers: 'localhost:9092'
+    schema-registry-url: 'mock://mock'
+    security:
+      protocol: 'PLAINTEXT'
+
+server:
+  port: 8087
+

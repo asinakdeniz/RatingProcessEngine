@@ -1,0 +1,70 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://nexus.energia.sise/repository/plugins-gradle/#browse/search/maven"
+        }
+    }
+}
+
+plugins {
+    id 'idea'
+    id 'java'
+    id 'org.springframework.boot' version '4.0.0'
+    id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'rating.engine'
+version = '0.0.1-SNAPSHOT'
+description = 'Rating Process Engine'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+repositories {
+    maven {
+        url "https://nexus.energia.sise/repository/maven-central/#browse/search/maven"
+    }
+    maven {
+        url "https://nexus.energia.sise/repository/confluent-maven/#browse/search/maven"
+    }
+}
+
+configurations.all {
+    exclude group: 'org.slf4j', module: 'slf4j-reload4j'
+    exclude group: 'org.slf4j', module: 'slf4j-log4j12'
+    exclude group: 'log4j', module: 'log4j'
+    exclude group: 'ch.qos.reload4j', module: 'reload4j'
+    exclude group: 'org.apache.logging.log4j', module: 'log4j-slf4j-impl'
+    exclude group: 'org.apache.logging.log4j', module: 'log4j-slf4j2-impl'
+}
+
+dependencies {
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+
+    implementation 'com.fasterxml.jackson.core:jackson-databind'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+
+    implementation 'io.trino:trino-jdbc:478'
+
+    implementation("org.apache.spark:spark-connect-client-jvm_2.13:4.0.1")
+
+    compileOnly "org.mapstruct:mapstruct-processor:1.6.3"
+    annotationProcessor "org.mapstruct:mapstruct-processor:1.6.3"
+    annotationProcessor 'org.projectlombok:lombok-mapstruct-binding:0.2.0'
+    implementation "org.mapstruct:mapstruct:1.6.3"
+
+    compileOnly 'org.projectlombok:lombok'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    annotationProcessor 'org.projectlombok:lombok'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
