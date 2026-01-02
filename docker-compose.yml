@@ -288,7 +288,7 @@ services:
       - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
       - ALLOW_PLAINTEXT_LISTENER=yes
       - KAFKA_ENABLE_KRAFT=no
-      - KAFKA_CFG_NUM_PARTITIONS=4
+      - KAFKA_CFG_NUM_PARTITIONS=6
     depends_on:
       - zookeeper
     networks:
