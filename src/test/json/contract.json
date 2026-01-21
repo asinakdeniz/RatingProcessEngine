@@ -1,0 +1,72 @@
+[
+  {
+    "contractNumber": "CNT-0",
+    "customerId": "CUST-0",
+    "meteringPointNumber": "EE-MP-0",
+    "validFrom": "2024-12-22T10:30:00Z",
+    "validTo": "2026-01-21T10:30:00Z",
+    "status": "ACTIVE",
+    "product": {
+      "productId": "PROD-1",
+      "productName": "Standard Electricity Package 1",
+      "productType": "ELECTRICITY",
+      "countryCode": "EE"
+    }
+  },
+  {
+    "contractNumber": "CNT-1",
+    "customerId": "CUST-1",
+    "meteringPointNumber": "EE-MP-1",
+    "validFrom": "2024-12-22T10:30:00Z",
+    "validTo": "2026-01-21T10:30:00Z",
+    "status": "ACTIVE",
+    "product": {
+      "productId": "PROD-2",
+      "productName": "Standard Electricity Package 2",
+      "productType": "ELECTRICITY",
+      "countryCode": "EE"
+    }
+  },
+  {
+    "contractNumber": "CNT-2",
+    "customerId": "CUST-2",
+    "meteringPointNumber": "EE-MP-2",
+    "validFrom": "2024-12-22T10:30:00Z",
+    "validTo": "2026-01-21T10:30:00Z",
+    "status": "ACTIVE",
+    "product": {
+      "productId": "PROD-3",
+      "productName": "Standard Electricity Package 3",
+      "productType": "ELECTRICITY",
+      "countryCode": "EE"
+    }
+  },
+  {
+    "contractNumber": "CNT-3",
+    "customerId": "CUST-3",
+    "meteringPointNumber": "EE-MP-3",
+    "validFrom": "2024-12-22T10:30:00Z",
+    "validTo": "2026-01-21T10:30:00Z",
+    "status": "ACTIVE",
+    "product": {
+      "productId": "PROD-1",
+      "productName": "Standard Electricity Package 1",
+      "productType": "ELECTRICITY",
+      "countryCode": "EE"
+    }
+  },
+  {
+    "contractNumber": "CNT-100",
+    "customerId": "CUST-100",
+    "meteringPointNumber": "EE-MP-100",
+    "validFrom": "2024-12-22T10:30:00Z",
+    "validTo": "2026-01-21T10:30:00Z",
+    "status": "ACTIVE",
+    "product": {
+      "productId": "PROD-2",
+      "productName": "Standard Electricity Package 2",
+      "productType": "ELECTRICITY",
+      "countryCode": "EE"
+    }
+  }
+]

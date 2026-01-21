@@ -1,0 +1,62 @@
+[
+  {
+    "priceId": "PRICE-ENERGY-1",
+    "productId": "PROD-1",
+    "priceComponent": "ENERGY",
+    "pricePerUnit": 0.15,
+    "unit": "kWh",
+    "validFrom": "2024-12-22T10:30:00Z",
+    "validTo": "2026-01-21T10:30:00Z",
+    "countryCode": "EE"
+  },
+  {
+    "priceId": "PRICE-NETWORK-1",
+    "productId": "PROD-1",
+    "priceComponent": "NETWORK",
+    "pricePerUnit": 0.05,
+    "unit": "kWh",
+    "validFrom": "2024-12-22T10:30:00Z",
+    "validTo": "2026-01-21T10:30:00Z",
+    "countryCode": "EE"
+  },
+  {
+    "priceId": "PRICE-ENERGY-2",
+    "productId": "PROD-2",
+    "priceComponent": "ENERGY",
+    "pricePerUnit": 0.15,
+    "unit": "kWh",
+    "validFrom": "2024-12-22T10:30:00Z",
+    "validTo": "2026-01-21T10:30:00Z",
+    "countryCode": "EE"
+  },
+  {
+    "priceId": "PRICE-NETWORK-2",
+    "productId": "PROD-2",
+    "priceComponent": "NETWORK",
+    "pricePerUnit": 0.05,
+    "unit": "kWh",
+    "validFrom": "2024-12-22T10:30:00Z",
+    "validTo": "2026-01-21T10:30:00Z",
+    "countryCode": "EE"
+  },
+  {
+    "priceId": "PRICE-ENERGY-3",
+    "productId": "PROD-3",
+    "priceComponent": "ENERGY",
+    "pricePerUnit": 0.15,
+    "unit": "kWh",
+    "validFrom": "2024-12-22T10:30:00Z",
+    "validTo": "2026-01-21T10:30:00Z",
+    "countryCode": "EE"
+  },
+  {
+    "priceId": "PRICE-NETWORK-3",
+    "productId": "PROD-3",
+    "priceComponent": "NETWORK",
+    "pricePerUnit": 0.05,
+    "unit": "kWh",
+    "validFrom": "2024-12-22T10:30:00Z",
+    "validTo": "2026-01-21T10:30:00Z",
+    "countryCode": "EE"
+  }
+]

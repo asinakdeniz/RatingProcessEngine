@@ -1,0 +1,47 @@
+[
+  {
+    "meteringPointNumber": "EE-MP-0",
+    "timestamp": "2025-01-21T10:30:00Z",
+    "consumption": 50.0,
+    "unit": "kWh",
+    "customerId": "CUST-0",
+    "countryCode": "EE",
+    "qualityCode": "VALID"
+  },
+  {
+    "meteringPointNumber": "EE-MP-1",
+    "timestamp": "2025-01-21T10:30:00Z",
+    "consumption": 51.0,
+    "unit": "kWh",
+    "customerId": "CUST-1",
+    "countryCode": "EE",
+    "qualityCode": "VALID"
+  },
+  {
+    "meteringPointNumber": "EE-MP-2",
+    "timestamp": "2025-01-21T10:30:00Z",
+    "consumption": 52.0,
+    "unit": "kWh",
+    "customerId": "CUST-2",
+    "countryCode": "EE",
+    "qualityCode": "VALID"
+  },
+  {
+    "meteringPointNumber": "EE-MP-25",
+    "timestamp": "2025-01-21T10:30:00Z",
+    "consumption": 75.0,
+    "unit": "kWh",
+    "customerId": "CUST-25",
+    "countryCode": "EE",
+    "qualityCode": "VALID"
+  },
+  {
+    "meteringPointNumber": "EE-MP-49",
+    "timestamp": "2025-01-21T10:30:00Z",
+    "consumption": 99.0,
+    "unit": "kWh",
+    "customerId": "CUST-49",
+    "countryCode": "EE",
+    "qualityCode": "VALID"
+  }
+]
